@@ -36,9 +36,3 @@ class Solution:
             max_length = max(max_length, index - distance + 1)
             letters[letter] = index + 1
         return max_length
-
-
-
-        
-print(Solution().lengthOfLongestSubstring('dvdf'))
-#print(Solution().lengthOfLongestSubstring('pwwkew'))
