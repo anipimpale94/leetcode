@@ -8,6 +8,11 @@
 # Output: 7 -> 0 -> 8
 # Explanation: 342 + 465 = 807.
 
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
 class Solution:
     def addTwoNumbers(self, l1, l2):
         """
